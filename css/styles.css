@@ -1,0 +1,286 @@
+body {
+    font-family: 'Google Sans', sans-serif;
+    margin: 40px;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 22px;
+    /* border-bottom: 1px solid #ccc; */
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.authors {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 22px;
+    color: #333;  /* grey */
+}
+
+.author-link {
+    color: #007BFF;  /* blue */
+    text-decoration: none;  /* remove underline */
+}
+
+.author-link:hover {
+    text-decoration: underline;  /* display underline */
+}
+
+.affiliations {
+    font-size: 22px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.videos {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;   
+    align-items: center;
+    width: 60%;         
+    margin: 0 auto;    
+    gap: 0;          
+}
+
+.videos .video video {
+    width: 100%;       
+    height: auto;              
+}
+.videos .video p {
+    height: 60px;        
+    font-size: 18px;
+    overflow: hidden;       
+    text-align: center;   
+    margin-top: 10px;     
+}
+
+.custom-font-size {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.resource-link {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #333;
+    padding: 8px 16px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.resource-link i {
+    margin-right: 5px;
+}
+
+.abstract-section {
+    width: 100%;
+    text-align: center; /* This will center any direct children, but not text or inline content */
+    margin: 40px 0;
+    display: flex; /* To center the child content vertically and horizontally */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    background-color: #fafafa; /* This sets a very light gray background color */
+    padding-top: 40px; /* This adds a 40px padding to the top of the section */
+    padding-bottom: 40px; /* This adds a 40px padding to the bottom of the section */
+}
+
+.abstract-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center; /* center-align the title */
+    width: 50%; /* Match the width of abstract-content for alignment */
+}
+
+.abstract-content {
+    width: 50%; /* Set the width as per your design preference */
+    font-size: 16px;
+    text-align: justify; /* Align the content to the left */
+}
+
+.pipeline-section {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.pipeline-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.pipeline-image {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pipeline-description {
+    width: 50%;
+    font-size: 16px;
+    margin: 20px auto;  
+    text-align: justify; 
+}
+
+/* video section */
+.video-section {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #fafafa; /* This sets a very light gray background color */
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* gallery */
+.vis-section {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.vis-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-number {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.page-number.active {
+    background-color: #FFD700; /* 亮黄色 */
+    color: white;
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.video-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.video-header {
+    grid-column: span 5; 
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.video-label {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 40px; 
+}
+
+.video-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.video-row > :nth-child(2) {
+    margin-left: 20px; 
+}
+
+.video-label:first-child {
+    margin-right: 50px; 
+}
+
+.video-page {
+    margin-bottom: 50px;
+}
+
+
+.page-number {
+    font-size: 16px;
+    height: 30px;   
+    width: 30px; 
+}
+
+.description-text {
+    margin-top: 20px;       
+    font-size: 16px;      
+    text-align: center;    
+    color: #555;          
+    max-width: 80%;     
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* bibtex */
+.bibtex-section {
+    width: 60%;
+    margin: 40px 20% 40px 20%; 
+    overflow-x: auto;
+}
+
+.bibtex-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.bibtex-content {
+    padding: 10px;
+    text-align: left;
+}
+
+.bibtex-content pre {
+    display: inline-block;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    white-space: pre;
+    width: 100%; 
+    text-align: left; 
+}
