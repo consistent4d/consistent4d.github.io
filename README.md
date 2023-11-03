@@ -4,7 +4,7 @@ If you find Consisten4D useful for your work, please cite:
 ```
 @article{jiang2023consistent4d,
     author = {Jiang, Yanqin and Zhang, Li and Gao, Jin and Hu, Weimin and Yao, Yao},
-    title = {Consistent4D: 360° Dynamic Object Generation from Monocular Video},
+    title = {Consistent4D: Consistent 360° Dynamic Object Generation from Monocular Video},
     journal = {arxiv},
     year = {2023},
 }
